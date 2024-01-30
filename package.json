@@ -11,7 +11,8 @@
   },
   "scripts": {
     "wdio": "wdio run ./wdio.conf.ts",
-    "wdio-ff": "wdio run ./wdio-firefox.conf.ts"
+    "wdio-ff": "wdio run ./wdio-firefox.conf.ts",
+    "wdio-chromelocal": "wdio run ./wdio-chromelocal.conf.ts"
   },
   "dependencies": {
     "dotenv": "^16.4.1"
